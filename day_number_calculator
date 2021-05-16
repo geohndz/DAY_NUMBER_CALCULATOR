@@ -1,0 +1,109 @@
+package com.mycompany.ejercicio_3;
+import java.util.Scanner;
+
+public class Main {
+
+    
+    public static void main(String[] args) {
+        
+        Scanner entrada = new Scanner(System.in);
+        int d, m;
+        double dt;
+        
+        System.out.println("DAY CALCULATOR");
+        System.out.println("Input a month number (1 - 12): ");
+        m = entrada.nextInt();
+        System.out.println("");
+        
+        System.out.println("Input a day number: ");
+        d = entrada.nextInt();
+        System.out.println("");
+        
+        
+        if (m == 1) {
+            dt = d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 2) {
+            dt = 31 + d;
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 3) {
+            dt = 31 + 28 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 4) {
+            dt = 31 + 28 + 31 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 5) {
+            dt = 31 + 28 + 31 + 30 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 6) {
+            dt = 31 + 28 + 31 + 30 + 31 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 7) {
+            dt = 31 + 28 + 31 + 30 + 31 + 30 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 8) {
+            dt = 31 + 28 + 31 + 30 + 31 + 30 + 31 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 9) {
+            dt = 31 + 28 + 31 + 30 + 31+ 30 + 31 + 31 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 10) {
+            dt = 31 + 28 + 31 + 30 + 31+ 30 + 31 + 31 + 30 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 11) {
+            dt = 31 + 28 + 31 + 30 + 31+ 30 + 31 + 31 + 30 + 31 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+        if (m == 12) {
+            dt = 31 + 28 + 31 + 30 + 31+ 30 + 31 + 31 + 30 + 31 + 30 + d;
+            
+            System.out.println("");
+            System.out.println(dt + " Days");
+        }
+        
+               
+    }
+    
+}
